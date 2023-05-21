@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/about/About";
 import Header from "./components/header/Header";
 import Landing from "./components/landing/Landing";
 const App = () => {
@@ -7,6 +8,7 @@ const App = () => {
       <Header />
       <main>
         <Landing />
+        <About />
       </main>
     </>
   );

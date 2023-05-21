@@ -1,0 +1,22 @@
+.about {
+  padding: 30px 10px;
+}
+.about .title h2 {
+  font-size: 50px;
+  color: #ebebeb;
+}
+.about .title h5 {
+  margin-top: -27px;
+  font-size: 30px;
+  color: #741906;
+}
+.about .title {
+  text-align: center;
+}
+.about .desc {
+  letter-spacing: 0.05em;
+  line-height: 24px;
+  font-weight: 400;
+  color: #232730;
+  padding: 10px;
+}
