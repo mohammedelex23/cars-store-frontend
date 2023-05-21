@@ -1,12 +1,13 @@
 import "./App.css";
 import Header from "./components/header/Header";
+import Landing from "./components/landing/Landing";
 const App = () => {
   return (
     <>
       <Header />
-      {/* <main>
-        <section></section>
-      </main> */}
+      <main>
+        <Landing />
+      </main>
     </>
   );
 };

@@ -1,0 +1,11 @@
+.landing {
+  background-image: url("/images/landing-bg.png");
+  background-repeat: no-repeat;
+  background-position: 50% 58%;
+  width: 100%;
+  height: calc(var(--vh, 1vh) * 100);
+}
+.landing .overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
