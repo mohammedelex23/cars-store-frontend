@@ -8,8 +8,10 @@
 }
 .landing .title {
   padding-top: 100px;
+  padding-left: 2px;
+  padding-right: 2px;
   text-align: center;
-  font-size: 32px;
+  font-size: 28px;
   color: #ffffff;
 }
 .landing .desc {
