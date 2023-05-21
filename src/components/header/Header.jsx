@@ -20,7 +20,7 @@ const Header = () => {
   }
   useEffect(() => {
     history.replaceState(null, null, " ");
-  });
+  }, []);
   return (
     <header>
       <div className="header-box">
