@@ -1,0 +1,40 @@
+.cartitem {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 10px 20px;
+  user-select: none;
+}
+.cartitem .car-name {
+  color: #741906;
+}
+.cartitem .btn-groups {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+}
+.btn-groups .qty-btns {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  font-size: 20px;
+  column-gap: 7px;
+}
+.qty-btns .qty-item {
+  flex: 1;
+}
+.qty-btns button {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: #741906;
+  color: #ffffff;
+}
+.qty-btns .btn-minus {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.qty-btns .btn-plus {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
