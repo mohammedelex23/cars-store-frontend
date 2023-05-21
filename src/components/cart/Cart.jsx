@@ -4,7 +4,10 @@ import "./Cart.css";
 import CartItem from "./CartItem";
 const Cart = ({ isCartOpen }) => {
   return (
-    <div className={`cart-box ${isCartOpen ? "open" : "close"}`}>
+    <div
+      style={{ visibility: isCartOpen ? "visible" : "hidden" }}
+      className={`cart-box ${isCartOpen ? "open" : "close"}`}
+    >
       <div className="cart">
         {/* cart items */}
         <ul>
