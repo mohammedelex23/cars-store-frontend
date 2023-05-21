@@ -4,4 +4,36 @@
   background-position: 50% 58%;
   width: 100%;
   height: calc(var(--vh, 1vh) * 100);
+  letter-spacing: 1px;
+}
+.landing .title {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 32px;
+  color: #ffffff;
+}
+.landing .desc {
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 10px;
+  margin: 10px;
+  margin-top: 60px;
+}
+.landing .btn {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 195px;
+  height: 55px;
+  font-size: 24px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+}
+.landing .btn span {
+  margin-right: 10px;
 }
