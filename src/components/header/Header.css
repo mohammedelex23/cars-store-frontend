@@ -35,7 +35,7 @@
   right: -245px;
   width: 245px;
   height: calc(var(--vh, 1vh) * 100 - 60px);
-  /* transition: transform 0.2s ease-out; */
+  transition: transform 0.2s ease-out;
 }
 .nav.open {
   transform: translateX(-245px);
