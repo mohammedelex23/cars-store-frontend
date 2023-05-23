@@ -1,6 +1,9 @@
 .about {
   padding: 30px 10px;
 }
+.about .title {
+  text-align: center;
+}
 .about .title h2 {
   font-size: 50px;
   color: #ebebeb;
@@ -10,9 +13,6 @@
   font-size: 30px;
   color: #741906;
 }
-.about .title {
-  text-align: center;
-}
 .about .desc {
   letter-spacing: 0.05em;
   line-height: 24px;
@@ -20,5 +20,4 @@
   color: #232730;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 17px;
 }

@@ -1,0 +1,44 @@
+.cars-container {
+  position: relative;
+}
+.cars-container .icon {
+  position: absolute;
+  display: none;
+}
+
+.cars-box {
+  padding: 30px 10px;
+}
+.cars-box .title {
+  text-align: center;
+}
+.cars-box .title h2 {
+  font-size: 50px;
+  color: #ebebeb;
+}
+.cars-box .title h5 {
+  margin-top: -27px;
+  font-size: 30px;
+  color: #741906;
+}
+.cars {
+  display: flex;
+  margin-top: 30px;
+  overflow: hidden;
+  justify-content: space-between;
+  column-gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cars-nav {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+  margin-top: 10px;
+}
+.cars-nav div {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+}

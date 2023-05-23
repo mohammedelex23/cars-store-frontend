@@ -1,0 +1,79 @@
+.car {
+  width: 90%;
+  flex-shrink: 0;
+  height: 468px;
+  background: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 30px;
+}
+.car:last-child {
+  margin-right: 0;
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+}
+.car .title h3 {
+  color: #741906;
+  font-size: 24px;
+  line-height: 33px;
+  margin-top: 20px;
+  font-weight: 700;
+}
+.car .title h6 {
+  color: rgba(35, 34, 34, 0.96);
+  font-size: 12px;
+  font-weight: 400;
+}
+.car .desc {
+  font-size: 12px;
+  line-height: 150%;
+  color: rgba(35, 34, 34, 0.96);
+  font-weight: 400;
+}
+.car .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.bottom .info {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+.bottom .info .info-icon {
+  color: #12273d;
+  width: 24px;
+  height: 18px;
+}
+.bottom .info span {
+  color: #741906;
+}
+.bottom .car-qty {
+  width: 120px;
+  display: flex;
+  font-size: 24px;
+}
+.bottom .car-qty button {
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background-color: #741906;
+  color: #ffffff;
+}
+.bottom .car-qty .btn-minus {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.bottom .car-qty .btn-plus {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.bottom .car-qty span {
+  text-align: center;
+  margin: auto 5px;
+}
+.bottom .car-qty .item {
+  flex: 1;
+}
