@@ -22,13 +22,13 @@
   color: #741906;
 }
 .cars {
-  display: flex;
+  display: flex !important;
   margin-top: 30px;
   overflow: hidden;
   justify-content: space-between;
   column-gap: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 10px !important;
+  padding-bottom: 30px !important;
 }
 .cars-nav {
   display: flex;
@@ -41,4 +41,10 @@
   height: 11px;
   border-radius: 50%;
   background-color: #e5e5e5;
+}
+.swiper-pagination {
+  bottom: 0;
+}
+.swiper-pagination-bullet-active {
+  background-color: #741906;
 }

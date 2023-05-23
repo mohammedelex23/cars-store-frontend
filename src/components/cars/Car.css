@@ -1,10 +1,14 @@
 .car {
-  width: 90%;
+  width: 95%;
+  /* margin: auto; */
   flex-shrink: 0;
   height: fit-content;
   background: #ffffff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
 }
 .car:last-child {
   margin-right: 0;

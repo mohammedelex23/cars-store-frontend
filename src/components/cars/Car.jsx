@@ -12,10 +12,7 @@ const Car = ({
   image,
 }) => {
   return (
-    <li
-      style={{ marginLeft: first ? `-${marginLeft}%` : "auto" }}
-      className="car"
-    >
+    <li className="car">
       <div className="img-box">
         <img src={image} alt="car" />
       </div>
