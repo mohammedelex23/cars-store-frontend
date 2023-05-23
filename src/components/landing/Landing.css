@@ -1,7 +1,7 @@
 .landing {
-  background-image: url("/images/landing-bg.png");
+  background-image: url("/images/landing-bg-sm.png");
   background-repeat: no-repeat;
-  background-position: 50% 58%;
+  background-size: 100% 100%;
   width: 100%;
   height: calc(var(--vh, 1vh) * 100);
   letter-spacing: 1px;
@@ -38,4 +38,28 @@
 }
 .landing .btn span {
   margin-right: 10px;
+}
+
+/***************** Media Queries *****************/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .landing {
+    background-image: url("/images/landing-bg.png");
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
 }
