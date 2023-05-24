@@ -1,0 +1,50 @@
+.gallery {
+  display: flex;
+  margin-bottom: 30px;
+}
+.gallery img {
+  width: 100%;
+  margin: 0;
+  height: 270px;
+}
+.gallery .col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.col .middle {
+  position: relative;
+  height: 270px;
+}
+.col .middle .img-desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+}
+.img-desc h3 {
+  font-size: 30px;
+  line-height: 44px;
+}
+.img-desc p {
+  font-size: 20px;
+  line-height: 27px;
+}
+.img-desc button {
+  font-size: 24px;
+  background: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.gallery .col:first-child {
+  display: none;
+}
+.gallery .col:last-child {
+  display: none;
+}
