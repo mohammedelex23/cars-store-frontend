@@ -1,6 +1,5 @@
 .gallery {
   display: flex;
-  margin-bottom: 30px;
 }
 .gallery img {
   width: 100%;
@@ -27,11 +26,10 @@
 }
 .img-desc h3 {
   font-size: 30px;
-  line-height: 44px;
+  line-height: 24px;
 }
 .img-desc p {
   font-size: 20px;
-  line-height: 27px;
 }
 .img-desc button {
   font-size: 24px;
