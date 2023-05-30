@@ -1,0 +1,88 @@
+.footer {
+  padding: 30px 35px;
+  padding-bottom: 0;
+}
+.footer .top {
+  display: flex;
+  flex-direction: column;
+}
+
+.yourcar,
+.newsletter {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.footer h2 {
+  color: #741906;
+}
+.yourcar h2 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.yourcar p,
+.newsletter p {
+  color: #12273d;
+  font-weight: 300;
+}
+.newsletter .form {
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 20px;
+  align-items: center;
+}
+.form input {
+  width: 100%;
+  padding: 15px;
+  color: #12273d;
+}
+.form button {
+  width: 50%;
+  padding: 10px;
+  background-color: #741906;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+.contact {
+  margin: auto;
+}
+.contact h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.contact p {
+  color: #12273d;
+}
+.contact .address .item {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.address .item div p {
+  margin: 7px;
+}
+.footer .bottom {
+  margin-top: 20px;
+  text-align: center;
+}
+.bottom .social {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+.social .icon {
+  font-size: 25px;
+}
+.bottom .line {
+  margin: 10px auto;
+  border-top: 1.5px solid #741906;
+  height: 0;
+}
+.bottom p {
+  font-size: 12px;
+  color: #12273d;
+}

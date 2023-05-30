@@ -3,6 +3,7 @@
   padding: 30px;
   flex-wrap: wrap;
   gap: 25px 25px;
+  background-color: #e5e5e5;
 }
 .logos img {
   flex: 1;
