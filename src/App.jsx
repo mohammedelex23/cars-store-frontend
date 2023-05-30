@@ -4,6 +4,7 @@ import Cars from "./components/cars/Cars";
 import Gallery from "./components/gallery/Gallery";
 import Header from "./components/header/Header";
 import Landing from "./components/landing/Landing";
+import Logos from "./components/logos/Logos";
 import Services from "./components/services/Services";
 import Testmonials from "./components/testmonials/Testmonials";
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
         <Cars />
         <Gallery />
         <Testmonials />
+        <Logos />
       </main>
     </>
   );

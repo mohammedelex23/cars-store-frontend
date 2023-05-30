@@ -1,0 +1,9 @@
+.logos {
+  display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+  gap: 25px 25px;
+}
+.logos img {
+  flex: 1;
+}
